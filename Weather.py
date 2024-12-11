@@ -105,6 +105,9 @@ class WeatherApp(QWidget):
             }
             QListWidget#recent_searches_list {
                 font-size: 20px;
+                padding: 5px;
+                border: 1px solid #ccc;
+                background-color: #f9f9f9;
             }
         """)
 
